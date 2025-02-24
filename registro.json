@@ -1,0 +1,15 @@
+[
+    {
+        "key": 1,
+        "nombre": "Cristian Prada",
+        "correo": "cprada33@hotmail.com",
+        "contrasena": "uem1234",
+        "canciones": [
+            {
+                "nombre": "Mi Amor",
+                "artista": "Sharn",
+                "url": "https://open.spotify.com/track/24MMjyA3NLqCsDJfsn51eg"
+            }
+        ]
+    }
+]
