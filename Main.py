@@ -82,10 +82,9 @@ def eliminar_usuario(correo: str):
         with open(registro, 'r') as file:
             registros = json.load(file)
 
-        # Buscar el usuario a eliminar
         for i, user in enumerate(registros):
             if user["correo"] == correo:
-                del registros[i]  # Eliminar usuario
+                del registros[i]
                 with open(registro, 'w') as file:
                     json.dump(registros, file, indent=4)
                 return {"message": "Usuario eliminado"}
